@@ -81,5 +81,4 @@ assets:
     js: true
 excerpt_separator: "<!--more-->"
 gems:
-- jekyll-textile-converter
 - jekyll-seo-tag
