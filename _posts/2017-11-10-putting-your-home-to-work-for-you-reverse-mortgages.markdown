@@ -22,4 +22,4 @@ While there are pros and cons to consider (which we’ll cover in upcoming posts
 
 We know this is a big consideration with lots of implications — and definitely a few complications. Maybe you’ve heard not-so-great things about earlier loans of this type. The good news is that today’s application process has been re-designed to ensure you meet the requirements as well as fully educate you about your responsibilities.
 
-Just like any other financial tool — investments, [SPIAs](https://www.google.com/url?q=https://plynty.com/post/simple-stable-yes-thats-a-spia.html&sa=D&ust=1510273508367000&usg=AFQjCNH-WlG5CEjCPvt2Yb9fmDD5lg6PRQ), the ins and out of Social Security payments — you need to evaluate your options and see if this works for your situation. 
+Just like any other financial tool — investments, [SPIAs](https://plynty.com/post/simple-stable-yes-thats-a-spia.html), the ins and out of Social Security payments — you need to evaluate your options and see if this works for your situation. 
