@@ -1,10 +1,8 @@
 ---
-title: 'exploring reverse mortgages: HECM'
+title: HECM fact sheet
 date: 2017-11-16 15:52:00 Z
 ---
 
-Exploring Reverse Mortgages: HECM
- 
 A reverse mortgage is really just another financial tool to increase retirement income, decrease retirement expenses, or even both. plynty recommends the Home Equity Conversion Mortgage (HECM), which allows borrowers to convert the equity in their homes into a monthly stream of income or a line of credit. The basic requirements to qualify for a HECM include:
  
 •    borrower must be at least 62 years old;
