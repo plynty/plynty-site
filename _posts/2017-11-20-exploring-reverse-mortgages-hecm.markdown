@@ -54,7 +54,7 @@ A HECM is more expensive than a standard mortgage — it may cost twice as much 
 
 * Ongoing service fees can be as high as $35 per month, but increasingly these fees are being included in the margin rate for the loan.
 
-* The rate of interest charged is the one-month LIBOR swap rate plus the lender’s margin plus the annual mortgage insurance premium.
+* The rate of interest charged is the one-month [LIBOR](https://www.investopedia.com/terms/l/libor.asp) swap rate plus the lender’s margin plus the annual mortgage insurance premium.
 
 These higher costs also offers enormous benefits not available with a standard mortgage. In particular, income is NOT used as a consideration for qualification, so you may qualify for a HECM even if you don’t qualify for a regular mortgage. You may also be able to afford a more expensive home than under standard mortgage regulations.
 
