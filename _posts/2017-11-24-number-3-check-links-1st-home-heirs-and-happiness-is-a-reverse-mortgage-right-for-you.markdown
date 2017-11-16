@@ -1,7 +1,7 @@
 ---
 title: "#3(check links 1st) Home, Heirs, and Happiness — Is A Reverse Mortgage Right
   for You?"
-date: 2017-11-10 22:39:00 Z
+date: 2017-11-24 12:00:00 Z
 published: false
 asset: "/uploads/16-homesheirsandhappinessisareversemortgagerightforyou-article.jpg.png"
 image: "/uploads/16-homesheirsandhappinessisareversemortgagerightforyou-preview.jpg.png"

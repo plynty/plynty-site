@@ -1,6 +1,7 @@
 ---
 title: HECM fact sheet
-date: 2017-11-16 15:52:00 Z
+date: 2017-11-20 09:00:00 Z
+published: false
 ---
 
 A reverse mortgage is really just another financial tool to increase retirement income, decrease retirement expenses, or even both. plynty recommends the Home Equity Conversion Mortgage (HECM), which allows borrowers to convert the equity in their homes into a monthly stream of income or a line of credit.<!--more--> The basic requirements to qualify for a HECM include:
