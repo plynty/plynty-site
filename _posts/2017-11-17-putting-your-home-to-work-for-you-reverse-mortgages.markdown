@@ -1,7 +1,6 @@
 ---
 title: putting your home to work for you — reverse mortgages
 date: 2017-11-17 12:00:00 Z
-published: false
 asset: "/uploads/14-puttingyourhometoworkforyou-reversemortgages-article.jpg.png"
 image: "/uploads/14-puttingyourhometoworkforyou-reversemortgages-preview.jpg.png"
 ---
