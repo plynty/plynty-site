@@ -1,6 +1,6 @@
 ---
 title: HECM fact sheet
-date: 2017-11-20 09:00:00 Z
+date: 2017-11-20 13:00:00 Z
 asset: "/uploads/15-HECMfactsheet-article.jpg.png"
 image: "/uploads/15-HECMfactsheet-preview.jpg"
 ---
