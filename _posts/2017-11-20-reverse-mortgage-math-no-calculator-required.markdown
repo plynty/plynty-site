@@ -1,5 +1,5 @@
 ---
-title: "#2(add links 1st) reverse mortgage “math” no calculator required"
+title: reverse mortgage “math” no calculator required
 date: 2017-11-20 09:00:00 Z
 published: false
 asset: "/uploads/15-reversemortgagemathnocalculatorrequired-article.jpg.png"
