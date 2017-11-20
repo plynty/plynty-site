@@ -1,7 +1,6 @@
 ---
 title: reverse mortgage “math” no calculator required
-date: 2017-11-20 09:00:00 Z
-published: false
+date: 2017-11-20 14:00:00 Z
 asset: "/uploads/15-reversemortgagemathnocalculatorrequired-article.jpg.png"
 image: "/uploads/15-reversemortgagemathnocalculatorrequired-preview.jpg.png"
 ---
