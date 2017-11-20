@@ -16,7 +16,7 @@ Which leads to the next natural question: what does your [lifelong cashflow](fin
 
 You are not required to draw any money out of a HECM, so at a minimum, it can serve as a source for emergency cash. But taking withdrawals can definitely improve your overall cashflow. Depending on when you obtain a HECM, here are some of the ways using those payments can help:
 
-* Increasing your guaranteed monthly income by using the **lifetime annuity (tenure payment) option**, and without increasing your taxable income (unlike other options such as SPIAs);
+* Increasing your guaranteed monthly income by using the [**lifetime annuity (tenure payment) option**](exploring-reverse-mortgages-hecm.html), and without increasing your taxable income (unlike other options such as SPIAs);
 
 * Allowing your retirement investments to stay in place longer and continue to grow;
 
