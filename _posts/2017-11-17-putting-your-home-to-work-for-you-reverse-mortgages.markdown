@@ -25,4 +25,4 @@ While there are pros and cons to consider (which we’ll cover in upcoming posts
 
 We know this is a big consideration with lots of implications — and definitely a few complications. Maybe you’ve heard not-so-great things about earlier loans of this type. The good news is that today’s application process has been re-designed to ensure you meet the requirements as well as fully educate you about your responsibilities.
 
-Just like any other financial tool — investments, [SPIAs](simple-stable-yes-thats-a-spia.html), the ins and outs of Social Security payments — you need to evaluate your options and see if this works for your situation.
+Just like any other financial tool — investments, [SPIAs](simple-stable-yes-thats-a-spia.html), the ins and outs of Social Security payments — you need to evaluate your options and see if this works for your situation. Which brings us to the topic for our **next post: reverse mortgage “math” no calculator required**. Bring the *plynty* app with you!
