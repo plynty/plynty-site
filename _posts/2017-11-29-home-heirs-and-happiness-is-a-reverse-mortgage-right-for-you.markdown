@@ -1,7 +1,6 @@
 ---
 title: home, heirs, and happiness — is a reverse mortgage right for you?
 date: 2017-11-29 09:00:00 Z
-published: false
 asset: "/uploads/16-homesheirsandhappinessisareversemortgagerightforyou-article.jpg.png"
 image: "/uploads/16-homesheirsandhappinessisareversemortgagerightforyou-preview.jpg.png"
 ---
