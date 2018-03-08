@@ -1,6 +1,6 @@
 ---
 title: aboutus.maps
-position: 9
+position: 10
 format: maps
 page: aboutus
 layout: default
