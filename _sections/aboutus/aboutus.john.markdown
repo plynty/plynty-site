@@ -1,6 +1,7 @@
 ---
 title: aboutus.john
 date: 2018-03-06 22:16:00 Z
+position: 9
 format: portrait-left
 page: plynty - about us
 image: "/uploads/John%20Getchell.png"
