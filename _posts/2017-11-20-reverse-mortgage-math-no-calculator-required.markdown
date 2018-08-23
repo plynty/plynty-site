@@ -5,9 +5,9 @@ asset: "/uploads/15-reversemortgagemathnocalculatorrequired-article.jpg.png"
 image: "/uploads/15-reversemortgagemathnocalculatorrequired-preview.jpg.png"
 ---
 
-So you read the words “mortgage” and “math” and think… ugh, this is going to be complicated. But remember that this is plynty, and your financial plan is easier to understand by using [lifelong cashflow](https://plynty.com/post/finding-balance-lifelong-cashflow.html)™.<!--more--> A Home Equity Conversion Mortgage (HECM) is really just another tool to increase retirement income, decrease retirement expenses, or even both.
+So you read the words “mortgage” and “math” and think… ugh, this is going to be complicated. But remember that this is plynty, and your financial plan is easier to understand by using [lifelong cashflow](./finding-balance-lifelong-cashflow.html)™.<!--more--> A Home Equity Conversion Mortgage (HECM) is really just another tool to increase retirement income, decrease retirement expenses, or even both.
 
-Yes, you will need to look at a number of factors to see if it is the right tool for you. However, this is your life and your plan — it is worth taking the time to work through this. To get started, as we mentioned in the [first post](putting-your-home-to-work-for-you-reverse-mortgages.html) in this series, we assume you are at least age 62 and have at least 50% equity in your home.
+Yes, you will need to look at a number of factors to see if it is the right tool for you. However, this is your life and your plan — it is worth taking the time to work through this. To get started, as we mentioned in the [first post](./putting-your-home-to-work-for-you-reverse-mortgages.html) in this series, we assume you are at least age 62 and have at least 50% equity in your home.
 
 Looking at someone else’s finances will give you an idea of key items you should consider before you begin evaluating your own situation. As one example, let’s meet Jane:
 
@@ -29,6 +29,6 @@ Since she will be unable to live solely on social security, Jane needs a strateg
 
 But Jane still has a bit of work to do: what happens if she loses her job before age 65? Or becomes ill/disabled? These issues, and factors such as her other debts and taxes, will also impact her decision as to whether and when to apply for a HECM.
 
-Now it’s your turn to make some calculations. The best — and easiest way — to do this is  through the plynty app. If you want to first take a closer look at some details associated with HECMs, plynty has a [HECM Fact Sheet](exploring-reverse-mortgages-hecm.html) available, which includes: additional information on loan costs and interest rates; the types of payout options and ways to use the funds to your best advantage; and the terms under which the loan becomes due.
+Now it’s your turn to make some calculations. The best — and easiest way — to do this is  through the plynty app. If you want to first take a closer look at some details associated with HECMs, plynty has a [HECM Fact Sheet](./exploring-reverse-mortgages-hecm.html) available, which includes: additional information on loan costs and interest rates; the types of payout options and ways to use the funds to your best advantage; and the terms under which the loan becomes due.
 
 Your retirement plan is not just about calculations — it is first and foremost about living your best retirement life.

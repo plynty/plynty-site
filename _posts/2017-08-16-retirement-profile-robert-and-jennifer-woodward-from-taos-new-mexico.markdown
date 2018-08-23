@@ -47,7 +47,7 @@ After years of globe-trotting, and a few moments of financial uncertainty, Rober
 
 “I could never have expected living in co-housing,” Robert says, “but it works well for us. Some people live to work. We have worked to live.”
 
-*[About plynty](https://plynty.com/)*
+*[About plynty](/aboutus.html)*
 
 Americans aren’t doing enough for retirement planning. Here’s one startling fact: the median retirement savings across all working-age families in the United States is just $5,000.
 
