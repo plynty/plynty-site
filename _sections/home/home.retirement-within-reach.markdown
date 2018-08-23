@@ -8,11 +8,10 @@ layout: default
 
 # your retirement within reach
 
-<!--check out the *plynty* app today-->
-Download the *plynty* app today.
+start using the *plynty* app today.
 
 <!--{% include app-stores.html
   ioslink="https://plynty.com/ios-app"
   androidlink="https://plynty.com/android-app"
 %}-->
-{% include button.html style="primary" label="get the app" target="get-app-modal.html" %}
+{% include button.html style="primary" label="join today" target="{registerLink}" %}

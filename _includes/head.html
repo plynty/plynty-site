@@ -10,17 +10,17 @@
    {% seo title=false %}
 
   <!-- angular material styles -->
-  <link rel="stylesheet" href="{{ "/assets/bower_components/angular-material/angular-material.min.css" | prepend: site.baseurl | prepend: site.url}}">
+  <link rel="stylesheet" href="/assets/bower_components/angular-material/angular-material.min.css">
 
   <!-- flexboxgrid styles -->
   <!--<link rel="stylesheet" href="{{ "/bower_components/flexboxgrid/css/flexboxgrid.min.css" | prepend: site.baseurl | prepend: site.url}}" type="text/css">-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css" >
 
   <!-- app styles -->
-  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="/assets/css/styles.css">
 
   <!-- font-awesome: icons -->
-  <link rel="stylesheet" href="{{ "/assets/bower_components/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="/assets/bower_components/font-awesome/css/font-awesome.min.css">
 
   <!-- Mailchimp input css -->
   <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
@@ -60,7 +60,7 @@
   </script>
   <script>
   /* Menu */
-    function myFunction() {
+    function handleNav() {
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
         x.className += " responsive";

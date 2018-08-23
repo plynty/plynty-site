@@ -1,0 +1,124 @@
+<script async>
+  document.domain = window.location.hostname.replace('www.', '');
+  let searchParams, JWT, apiURL, appURL;
+  searchParams = new URLSearchParams(window.location.search);
+
+  if (document.domain === 'localhost') {
+    appURL = 'http://localhost:8100/#';
+    apiURL = 'http://localhost:3000';
+  } else {
+    appURL = 'https://devapp.plynty.com/#';
+    apiURL = 'https://dev.plynty.com';
+  }
+
+  let hiddenElements = ['#discountHeader', '#discountContentAmount'];
+
+  (async () => {
+    JWT = searchParams.get('discountId');
+    await getSubscriptionPrice(JWT);
+  })();
+
+  async function setValues(text, priceObj) {
+    if (text) {
+      let replaceString = ['{discountAmount}', '{issuer}', '{priceContent}', '{savingsApplied}'];
+      replaceString.forEach((string) => {
+        switch (string) {
+
+          case '{discountAmount}':
+            if (priceObj.discountAmount) {
+              if (priceObj.isComplimentary) {
+                text = text.replace(string, 'complimentary');
+              } else {
+                text = text.replace(string, '$' + priceObj.discountAmount);
+              }
+            }
+            break;
+
+          case '{issuer}':
+            if (priceObj.issuer) {
+              text = text.replace(string, priceObj.issuer);
+            }
+            break;
+
+          case '{priceContent}':
+            let totalAmount = priceObj.discountAmount ? priceObj.basePrice - priceObj.discountAmount : priceObj.basePrice;
+            if (totalAmount > 0) {
+              text = text.replace(string, 'for <b>only $' + totalAmount + '</b> per year');
+            } else {
+              text = text.replace(string, 'with your <b>complimentary account</b>');
+            }
+            break;
+
+          case '{savingsApplied}':
+            if (priceObj.discountAmount && !priceObj.isComplimentary) {
+              text = text.replace(string, '($' + priceObj.discountAmount + ' discount applied!)');
+            } else {
+              text = text.replace(string, '');
+            }
+            break;
+
+          default:
+            break;
+        }
+      })
+      return text;
+    }
+  }
+
+  function addVisibilityStyles(ids) {
+    if (JWT) {
+      ids.forEach((id) => {
+        $(id).css("visibility", "visible");
+        $(id).css("display", "block");
+        $(id).css("opacity", "1");
+      })
+    }
+  }
+
+  function setHiddenStatus(ids) {
+    ids.forEach((id) => {
+      $(id).hide();
+    })
+  }
+
+  function updateLinks() {
+    $("a[href='{registerLink}']").attr('href', JWT ? appURL + '/register-email/' + JWT : appURL +
+      '/register-email/redirect');
+  }
+
+  async function updateContent(priceObj) {
+    if (priceObj) {
+      let discountHeaderText = $('#discountHeader').html();
+      let discountContentText = $('#discountContent').html();
+      let discountContentAmountText = $('#discountContentAmount').html();
+      let updatedHeaderText = await setValues(discountHeaderText, priceObj);
+      let updatedDiscountContent = await setValues(discountContentText, priceObj);
+      let updatedDiscountAmountText = await setValues(discountContentAmountText, priceObj);
+      $('#discountHeader').html(updatedHeaderText);
+      $('#discountContent').html(updatedDiscountContent);
+      $('#discountContentAmount').html(updatedDiscountAmountText);
+      updateLinks();
+      addVisibilityStyles(hiddenElements);
+    }
+  }
+
+  async function getSubscriptionPrice(JWT) {
+    let data = {
+      email: undefined,
+      jwt: JWT
+    }
+    let request = $.ajax({
+      type: "POST",
+      url: apiURL + '/api/Subscriptions/getSubscriptionPrice',
+      data: data,
+      contentType: "application/x-www-form-urlencoded"
+    });
+
+    request.done(function (data) {
+      let priceObj = data.response;
+      if (priceObj) {
+        updateContent(priceObj);
+      }
+    });
+  }
+</script>

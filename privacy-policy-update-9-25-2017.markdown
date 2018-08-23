@@ -10,7 +10,7 @@ At *plynty*, we are committed to protecting the privacy of our users and maintai
 
 ## Why we are updating our Privacy Policy
 
-The update to our [Privacy Policy](https://plynty.com/privacy.html) clarifies how we work with Facebook® to create and offer new products or services.
+The update to our [Privacy Policy](/privacy.html) clarifies how we work with Facebook® to create and offer new products or services.
 
 
 ## What it means to your privacy and identity protection

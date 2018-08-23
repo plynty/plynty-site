@@ -56,7 +56,7 @@ Back at home in Fairfield, Barbara has immersed herself in watercolor painting a
 
 * Take time to develop your interests, so you look forward to fully enjoying your retirement
 
-*[About plynty](https://plynty.com/)*
+*[About plynty](/aboutus.html)*
 Americans aren’t doing enough for retirement planning. Here’s one startling fact: the median retirement savings across all working-age families in the United States is just $5,000.
 
 We created plynty to help. Our first-of-its-kind app offers easy and powerful retirement planning tools to help people with any financial background. We also offer fun and informative advice to help along the way.
