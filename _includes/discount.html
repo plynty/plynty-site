@@ -11,8 +11,6 @@
     apiURL = 'https://dev.plynty.com';
   }
 
-  let hiddenElements = ['#discountHeader', '#discountContentAmount'];
-
   (async () => {
     JWT = searchParams.get('discountId');
     await getSubscriptionPrice(JWT);
@@ -65,24 +63,14 @@
     }
   }
 
-  function addVisibilityStyles(ids) {
-    if (JWT) {
-      ids.forEach((id) => {
-        $(id).css("visibility", "visible");
-        $(id).css("display", "block");
-        $(id).css("opacity", "1");
-      })
-    }
+  function showElement(id) {
+    $(id).css("visibility", "visible");
+    $(id).css("display", "block");
+    $(id).css("opacity", "1");
   }
 
-  function setHiddenStatus(ids) {
-    ids.forEach((id) => {
-      $(id).hide();
-    })
-  }
-
-  function updateLinks() {
-    $("a[href='{registerLink}']").attr('href', JWT ? appURL + '/register-email/' + JWT : appURL +
+  function updateLinks(priceObj) {
+    $("a[href='{registerLink}']").attr('href', priceObj.issuer && JWT ? appURL + '/register-email/' + JWT : appURL +
       '/register-email/redirect');
   }
 
@@ -97,8 +85,11 @@
       $('#discountHeader').html(updatedHeaderText);
       $('#discountContent').html(updatedDiscountContent);
       $('#discountContentAmount').html(updatedDiscountAmountText);
-      updateLinks();
-      addVisibilityStyles(hiddenElements);
+      updateLinks(priceObj);
+      if (priceObj.issuer) {
+        showElement('#discountHeader');
+      }
+      showElement('#discountContent');
     }
   }
 
