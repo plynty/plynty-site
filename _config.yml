@@ -82,4 +82,3 @@ assets:
 excerpt_separator: "<!--more-->"
 plugins:
 - jekyll-seo-tag
-exclude: []
