@@ -6,7 +6,7 @@ collections:
     title: Posts
     output: true
     description: Post descriptions
-    image: /uploads/plynty_logo_green.png
+    image: "/uploads/plynty_logo_green.png"
   uploads:
     title: Uploads
     output: true
@@ -65,7 +65,7 @@ defaults:
     type: pages
   values:
     layout: page
-    image: /uploads/plynty_logo_green.png
+    image: "/uploads/plynty_logo_green.png"
 repository: plynty/plynty-site
 url: https://plynty.com
 baseurl: "/"
