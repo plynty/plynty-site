@@ -24,7 +24,6 @@ $social-linkedin: #0077ba !default;
 @import "blog";
 @import "post";
 @import "page";
-@import "resetpassword";
 @import "modal";
 @import "press";
 @import "faq";
@@ -110,6 +109,11 @@ main {
     margin: auto;
 }
 
+p {
+    font-size: 1.4rem;
+    color: $plynty-gray;
+}
+
 header {
     background-color: $plynty-green;
     position: fixed;
@@ -136,6 +140,22 @@ nav {
     @extend .nav-item;
     border : 0.1rem solid $plynty-white;
     margin-left: 1.5rem;
+    border-radius: 0.3rem;
+}
+
+.nav-item-highlight-cta {
+    background-color: $plynty-pink;
+    text-transform: lowercase;
+    color: $plynty-pink;
+    margin-left: 1rem;
+    border : 0.1rem solid $plynty-pink;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+}
+
+.nav-item-highlight-cta:hover {
+    background-color: $plynty-pink !important;
+    opacity: 0.9;
 }
 
 nav a {
@@ -166,6 +186,9 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 1000px){
+    .nav-item-highlight-cta {
+        margin-top: 1rem;
+    }
     footer .patent-text{
         margin-left: 0rem !important;
     }
