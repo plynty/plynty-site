@@ -1,5 +1,5 @@
 ---
-title: How does plynty get paid for its services?
+title: does plynty charge for its services?
 date: 2017-03-14 15:01:00 Z
 position: 3
 ---
