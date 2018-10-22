@@ -22,7 +22,7 @@
   function setValues(text, priceObj) {
     if (text) {
       var replaceString = ['{discountAmount}', '{issuer}', '{priceContent}', '{savingsApplied}'];
-      replaceString.forEach((string) => {
+      replaceString.forEach(function(string) {
         switch (string) {
 
           case '{discountAmount}':
