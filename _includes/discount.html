@@ -1,4 +1,4 @@
-<script async>
+<script>
   document.domain = window.location.hostname.replace('www.', '');
   let searchParams, JWT, apiURL, appURL;
 
@@ -10,10 +10,8 @@
     apiURL = 'https://dev.plynty.com';
   }
 
-  (async function(){
     JWT = getDiscountId();
-    await getSubscriptionPrice(JWT);
-  })();
+    getSubscriptionPrice(JWT);
 
   function getDiscountId() {
     var params = window.location.search;
@@ -21,7 +19,7 @@
     return params[1];
   }
 
-  async function setValues(text, priceObj) {
+  function setValues(text, priceObj) {
     if (text) {
       let replaceString = ['{discountAmount}', '{issuer}', '{priceContent}', '{savingsApplied}'];
       replaceString.forEach((string) => {
@@ -80,14 +78,14 @@
     $("a[href='{loginLink}']").attr('href', appURL + '/login-email/:go');
   }
 
-  async function updateContent(priceObj) {
+  function updateContent(priceObj) {
     if (priceObj) {
       let discountHeaderText = $('#discountHeader').html();
       let discountContentText = $('#discountContent').html();
       let discountContentAmountText = $('#discountContentAmount').html();
-      let updatedHeaderText = await setValues(discountHeaderText, priceObj);
-      let updatedDiscountContent = await setValues(discountContentText, priceObj);
-      let updatedDiscountAmountText = await setValues(discountContentAmountText, priceObj);
+      let updatedHeaderText =  setValues(discountHeaderText, priceObj);
+      let updatedDiscountContent =  setValues(discountContentText, priceObj);
+      let updatedDiscountAmountText =  setValues(discountContentAmountText, priceObj);
       $('#discountHeader').html(updatedHeaderText);
       $('#discountContent').html(updatedDiscountContent);
       $('#discountContentAmount').html(updatedDiscountAmountText);
@@ -99,7 +97,7 @@
     }
   }
 
-  async function getSubscriptionPrice(JWT) {
+  function getSubscriptionPrice(JWT) {
     let data = {
       email: undefined,
       jwt: JWT
