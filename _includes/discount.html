@@ -10,9 +10,8 @@
     apiURL = 'https://dev.plynty.com';
   }
 
-  (async () => {
+  (async function(){
     JWT = getDiscountId();
-    console.log('JWT is', JWT);
     await getSubscriptionPrice(JWT);
   })();
 
