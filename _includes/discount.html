@@ -1,6 +1,6 @@
 <script>
   document.domain = window.location.hostname.replace('www.', '');
-  let searchParams, JWT, apiURL, appURL;
+  var JWT, apiURL, appURL;
 
   if (document.domain === 'localhost') {
     appURL = 'http://localhost:8100/#';
@@ -10,8 +10,8 @@
     apiURL = 'https://dev.plynty.com';
   }
 
-    JWT = getDiscountId();
-    getSubscriptionPrice(JWT);
+  JWT = getDiscountId();
+  getSubscriptionPrice(JWT);
 
   function getDiscountId() {
     var params = window.location.search;
@@ -21,7 +21,7 @@
 
   function setValues(text, priceObj) {
     if (text) {
-      let replaceString = ['{discountAmount}', '{issuer}', '{priceContent}', '{savingsApplied}'];
+      var replaceString = ['{discountAmount}', '{issuer}', '{priceContent}', '{savingsApplied}'];
       replaceString.forEach((string) => {
         switch (string) {
 
@@ -42,7 +42,7 @@
             break;
 
           case '{priceContent}':
-            let totalAmount = priceObj.discountAmount ? priceObj.basePrice - priceObj.discountAmount : priceObj.basePrice;
+            var totalAmount = priceObj.discountAmount ? priceObj.basePrice - priceObj.discountAmount : priceObj.basePrice;
             if (totalAmount > 0) {
               text = text.replace(string, 'for <b>only $' + totalAmount + '</b> per year');
             } else {
@@ -80,12 +80,12 @@
 
   function updateContent(priceObj) {
     if (priceObj) {
-      let discountHeaderText = $('#discountHeader').html();
-      let discountContentText = $('#discountContent').html();
-      let discountContentAmountText = $('#discountContentAmount').html();
-      let updatedHeaderText =  setValues(discountHeaderText, priceObj);
-      let updatedDiscountContent =  setValues(discountContentText, priceObj);
-      let updatedDiscountAmountText =  setValues(discountContentAmountText, priceObj);
+      var discountHeaderText = $('#discountHeader').html();
+      var discountContentText = $('#discountContent').html();
+      var discountContentAmountText = $('#discountContentAmount').html();
+      var updatedHeaderText =  setValues(discountHeaderText, priceObj);
+      var updatedDiscountContent =  setValues(discountContentText, priceObj);
+      var updatedDiscountAmountText =  setValues(discountContentAmountText, priceObj);
       $('#discountHeader').html(updatedHeaderText);
       $('#discountContent').html(updatedDiscountContent);
       $('#discountContentAmount').html(updatedDiscountAmountText);
@@ -98,11 +98,11 @@
   }
 
   function getSubscriptionPrice(JWT) {
-    let data = {
+    var data = {
       email: undefined,
       jwt: JWT
     }
-    let request = $.ajax({
+    var request = $.ajax({
       type: "POST",
       url: apiURL + '/api/Subscriptions/getSubscriptionPrice',
       data: data,
@@ -110,7 +110,7 @@
     });
 
     request.done(function (data) {
-      let priceObj = data.response;
+      var priceObj = data.response;
       if (priceObj) {
         updateContent(priceObj);
       }
