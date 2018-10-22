@@ -1,7 +1,6 @@
 <script async>
   document.domain = window.location.hostname.replace('www.', '');
   let searchParams, JWT, apiURL, appURL;
-  searchParams = new URLSearchParams(window.location.search);
 
   if (document.domain === 'localhost') {
     appURL = 'http://localhost:8100/#';
@@ -12,9 +11,16 @@
   }
 
   (async () => {
-    JWT = searchParams.get('discountId');
+    JWT = getDiscountId();
+    console.log('JWT is', JWT);
     await getSubscriptionPrice(JWT);
   })();
+
+  function getDiscountId() {
+    var params = window.location.search;
+    params = params.substr(1).split('=');
+    return params[1];
+  }
 
   async function setValues(text, priceObj) {
     if (text) {
