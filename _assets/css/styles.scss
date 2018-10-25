@@ -218,6 +218,7 @@ footer {
         flex-basis: auto;
     background: $plynty-green;
     width: 100%;
+    line-height: 3rem;
 }
 
 footer h1 {
@@ -228,6 +229,10 @@ footer h1 {
 footer p {
     color: $plynty-white;
     font-size: 1.8rem;
+}
+
+footer nav a:hover {
+    background: none;
 }
 
 footer .trademarks p {
