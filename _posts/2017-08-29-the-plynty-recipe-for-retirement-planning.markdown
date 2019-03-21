@@ -1,11 +1,12 @@
 ---
 title: the plynty recipe for retirement planning
 date: 2017-08-29 12:00:00 Z
-image: "/uploads/7-theplyntyrecipeforretirementplanning-preview.png"
 asset: "/uploads/lifelong%20cashflow%20wide.jpg"
+image: "/uploads/7-theplyntyrecipeforretirementplanning-preview.png"
 author: plynty
 ---
 
+<meta name="robots" content="noindex,nofollow">
 Creating a retirement plan is like trying a new recipe –  with proper ingredient preparation and by following the directions, there’s a good chance you’ll create something that will make you proud. Of course, once you start cooking and gain confidence and experience, you often discover modifications that make a recipe a better fit for you. <!--more-->
 
 The plynty planning app allows you to create variations of a straightforward financial recipe that may have been passed down for generations in your family: start with income, add savings, then decide what optional “ingredients” (annuities, etc.) might suit your own tastes — without giving you heartburn. The recipe below has a longer preparation time for the ingredients, but once they are prepped, the final product takes less time to come together.
