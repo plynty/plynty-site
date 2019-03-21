@@ -1,11 +1,12 @@
 ---
 title: we see money differently
 date: 2016-11-08 18:01:00 Z
-image: "/uploads/blog_preview_phone-small.jpg"
 asset: "/uploads/Blog%201%20Article.png"
+image: "/uploads/blog_preview_phone-small.jpg"
 author: plynty
 ---
 
+<meta name="robots" content="noindex,nofollow">
 “There seems to be some perverse human characteristic that likes to make easy things difficult.” - Warren Buffett 
 
 Welcome to the plynty blog! This is where we’ll explain <i>how</i> we see money differently, and what that can mean for your retirement planning (hint: it’s much easier than you think!).<!--more--> Along the way we’ll expose the myths behind traditional financial planning and make it what it should be —effortless. Because understanding a few simple tips can make your life a lot less stressful.
