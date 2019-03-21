@@ -1,11 +1,12 @@
 ---
 title: finding balance with lifelong cashflow
 date: 2017-08-21 08:00:00 Z
-image: "/uploads/6-findingbalancelifelongcashflow-preview-1b2c5e.jpg"
 asset: "/uploads/6-findingbalancelifelongcashflow-article-8749e9.png"
+image: "/uploads/6-findingbalancelifelongcashflow-preview-1b2c5e.jpg"
 author: plynty
 ---
 
+<meta name="robots" content="noindex,nofollow">
 You intuitively understand the basics of cashflow and how it works in your daily life. Wouldn’t it be nice if you could apply this to financial planning for your future? Well, you actually can, and we call it *lifelong cashflow*. <!--more-->
 
 For most of us, the traditional way of retirement planning just doesn’t apply. In the past, with a pension and social security, people knew how much money would be coming in every month. So your monthly budget could keep chugging along, taking into account whatever your new “salary” would be once you retired.
