@@ -1,11 +1,12 @@
 ---
 title: stop sweating over financial planning
 date: 2016-11-08 18:07:00 Z
-image: "/uploads/tablet-girl-small.jpg"
 asset: "/uploads/tablet%20girl%20blog%20article.jpg"
+image: "/uploads/tablet-girl-small.jpg"
 author: plynty
 ---
 
+<meta name="robots" content="noindex,nofollow">
 Financial planning. Do those words make you start to squirm and sweat? Say them out loud — and with confidence.<!--more--> It’s ok to pretend for now. Eventually, you’ll realize it’s not something to dread. We dare say, financial planning could become a refreshing activity.
 
 Your financial plan can be a welcome part of your life, assisting you in keeping track of all of the important things—your mortgage, car payment, and grocery bills. it also can help make other things possible. The “life” things. like sending your child to soccer camp or renting a beach house. And, one day, it’s what will help you transition into retirement, however you decide to define that time of your life.
