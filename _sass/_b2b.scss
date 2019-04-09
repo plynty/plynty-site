@@ -1,6 +1,7 @@
 /* home page styles */
 .b2b {
-	img{width:20px;}
+	img{max-width:20px!important;}
+	
     background-color: $plynty-white;
     section:first-child img {
         display: block;
