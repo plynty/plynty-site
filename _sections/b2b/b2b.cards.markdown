@@ -1,6 +1,6 @@
 ---
 title: b2b.cards
-position: 9
+position: 10
 format: three-block
 page: b2b
 layout: default
