@@ -14,4 +14,4 @@ Meet your requirements for branding, compliance, product, features, and function
   ioslink="https://plynty.com/ios-app"
   androidlink="https://plynty.com/android-app"
 %}-->
-{% include button.html style="primary" label="contact our team" target="mailto:someone@yoursite.com" %}
+{% include button.html style="primary" label="contact our team" target="mailto:partnerships@plynty.com" %}
