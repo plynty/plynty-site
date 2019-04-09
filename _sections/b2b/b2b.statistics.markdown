@@ -10,7 +10,7 @@ layout: default
 {% endcapture %}
 
 {% capture block1 %}
-<img src="/uploads/4-out-of-5.png">
+<div style="width:15px;"><img src="/uploads/4-out-of-5.png"></div>
 ## 4/5
 working Americans are worried about not having enough money for retirement.
 {% endcapture %}
