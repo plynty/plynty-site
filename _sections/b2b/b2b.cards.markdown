@@ -7,21 +7,21 @@ layout: default
 ---
 
 {% capture block1 %}
-(/uploads/insight.png)
+<img src="/uploads/insight.png">
 
 ## deepen customer relationships.
 Our efficient, needs-based approach helps banks provide each customer with a personalized financial plan that helps to cross-sell your entire product suite—retirement, investments, savings, insurance, and loans—based on suitability for the customer.
 {% endcapture %}
 
 {% capture block2 %}
-(/uploads/realtionship.png)
+<img src="/uploads/realtionship.png">
 
 ## gain actionable insights.
 Empower your customer-facing team with exceptional customer intelligence. Develop informed strategies to support sending follow-up communications, assigning customer service support, driving product sales, and referring appropriate customers to advisors, insurance agents, or mortgage lenders.
 {% endcapture %}
 
 {% capture block3 %}
-(/uploads/value.png)
+<img src="/uploads/value.png">
 
 ## deliver valuable services.
 Our approach uniquely supports customers of all income or asset levels in developing a financial plan that best meets their monthly cashflow goals in retirement. Support them through an advice-driven relationship basis, whenever and wherever they want.
