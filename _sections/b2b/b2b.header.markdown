@@ -1,7 +1,7 @@
 ---
 title: b2b.in-your-pocket
 position: 5
-format: big-image
+format: b2b-big-image
 page: b2b
 layout: default
 ---
