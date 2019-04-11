@@ -7,10 +7,10 @@ layout: default
 ---
 
 {% capture block1 %}
-<div style="padding:30px;border-radius:50%;"><img style="height:70px;" src="/uploads/realtionship.png"></div>
-<div style="background-color:white;">
+<div style="padding:30px;border-radius:50%;background-color:white;"><img style="height:70px;" src="/uploads/realtionship.png"></div>
+<div style="background-color:white;padding:10px;Margin:10px;">
 <h2>deepen customer relationships.</h2>
-Our efficient, needs-based approach helps banks provide each customer with a personalized financial plan that helps to cross-sell your entire product suite—retirement, investments, savings, insurance, and loans—based on suitability for the customer.
+<p>Our efficient, needs-based approach helps banks provide each customer with a personalized financial plan that helps to cross-sell your entire product suite—retirement, investments, savings, insurance, and loans—based on suitability for the customer.</p>
 	</div>
 {% endcapture %}
 
