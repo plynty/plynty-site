@@ -7,10 +7,11 @@ layout: default
 ---
 
 {% capture block1 %}
-<img src="/uploads/realtionship.png">
-
-## deepen customer relationships.
+<div style="padding:30px;border-radius:50%;"><img style="height:70px;" src="/uploads/realtionship.png"></div>
+<div style="background-color:white;">
+<h2>deepen customer relationships.</h2>
 Our efficient, needs-based approach helps banks provide each customer with a personalized financial plan that helps to cross-sell your entire product suite—retirement, investments, savings, insurance, and loans—based on suitability for the customer.
+	</div>
 {% endcapture %}
 
 {% capture block2 %}
