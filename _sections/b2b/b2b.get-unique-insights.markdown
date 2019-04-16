@@ -7,6 +7,7 @@ image: "/uploads/unique-insights.png"
 layout: default
 ---
 
+<br/><br/><br/>
 # get unique insights.
 Offer advice to your core customers. Integrate your features and product offerings. And customize the entire experience to your brand.
 
