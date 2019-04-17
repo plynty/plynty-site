@@ -78,16 +78,15 @@
     }
     .headerImageContent {
         position: absolute;
-        -webkit-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
+        -webkit-transform: translate(-40%, -50%);
+                transform: translate(-40%, -50%);
     }
     .headerImageContent h1{
         color: #fff;
-        font-size: 6rem;
+        font-size: 5rem;
         letter-spacing: 3px;
         font-weight: 600;
         line-height: 7rem;
-		text-align:center;
     }
     .headerImageContent p {
         color: #474747;
