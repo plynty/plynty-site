@@ -8,6 +8,7 @@ layout: default
 
 <div style="margin-left:15%;margin-right:15%;">
 {% capture heading %}
+<h1> Why should Plynty matter to your customers? </h1>
 {% endcapture %}
 
 {% capture block1 %}
