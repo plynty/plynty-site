@@ -6,7 +6,7 @@ page: b2b
 layout: default
 ---
 
-<div style="margin-left:70px;">
+<div style="margin-left:15%;margin-right:15%;">
 {% capture heading %}
 {% endcapture %}
 
