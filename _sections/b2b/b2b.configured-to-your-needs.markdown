@@ -8,7 +8,7 @@ layout: default
 
 # configured to your needs.
 
-Meet your requirements for branding, compliance, product, features, and functionality. Thanks to our flexible architecture, making Plynty your own product is a painless and streamlined process.
+Meet your requirements for branding, compliance, product, features, and functionality. Thanks to our flexible architecture, making *plynty* your own product is a painless and streamlined process.
 
 <!--{% include app-stores.html
   ioslink="https://plynty.com/ios-app"
