@@ -9,6 +9,6 @@ layout: default
 
 <br/><br/><br/>
 # get unique insights.
-Offer advice to your core customers. Integrate your features and product offerings. And customize the entire experience to your brand.
+Learn about your customers and their financial circumstances so you can help them build a successful future. Plynty enables your firm to scalably deliver a personalized experience with a financial plan that meets each user’s unique needs.
 
 <a href="mailto:partnerships@plynty.com">Ask us about our work with other leading financial institutions.</a>
