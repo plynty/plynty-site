@@ -16,6 +16,14 @@
                   </div>
                 </div>
             {% endif %}
+			
+            {% if section.format == 'b2b-big-image' %}
+                <div class="headerImage">
+                    <div class="col-xs-12 col-md-12 start-xs start-md">
+                    <span class="b2b-headerImageContent">{{section.content}}</span>
+                  </div>
+                </div>
+            {% endif %}
 
             {% if section.format == 'image-left' %}
                 <div class="row section-wrapper top-xs">

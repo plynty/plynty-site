@@ -3,11 +3,12 @@ title: how an actress overcame her fear of numbers to tackle investing
 date: 2017-08-31 15:00:00 Z
 tags:
 - retirement profile
-image: "/uploads/Susie.jpg"
 asset: "/uploads/8-Susie-article.jpg.png"
+image: "/uploads/Susie.jpg"
 author: plynty
 ---
 
+<meta name="robots" content="noindex,nofollow">
 *Susie advises: “Fess up to the things you don’t know. Don’t let fear stop you just because you don’t think you’ll gain any ground.”*
  <!--more-->
 

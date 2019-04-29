@@ -6,6 +6,7 @@ image: "/uploads/9%20-%20yousayguaranteewesayannuity-preview.jpg"
 author: plynty
 ---
 
+<meta name="robots" content="noindex,nofollow">
 When thinking about retirement, running out of money is one of the top concerns for most people. You can run out of money because you spend too much, too soon. Or you can live “too long” — or at least longer than planned. So, is there any way to possibly guarantee that you’ll have enough money to last throughout your retirement?
 <!--more-->
 

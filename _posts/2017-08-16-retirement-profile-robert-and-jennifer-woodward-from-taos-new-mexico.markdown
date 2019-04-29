@@ -4,11 +4,12 @@ title: how a globetrotting couple took advantage of their 401(k) and Apple stock
 date: 2017-08-16 15:00:00 Z
 tags:
 - retirement profile
-image: "/uploads/P1070604Edited2.jpg"
 asset: "/uploads/P1070604wide.jpg"
+image: "/uploads/P1070604Edited2.jpg"
 author: plynty
 ---
 
+<meta name="robots" content="noindex,nofollow">
 “There has been a lot of moving around, in my career,” says Robert Woodward, 64. “It was not a traditional path.” <!--more-->
 
 That path began, steadily enough, with a bachelor’s degree in geology from the University of Arizona and a summer job at ARCO International Oil & Gas. There, Robert sharpened his skills in mapping and exploration, which helped propel him into graduate work in geology at the University of Southern California in the late 1970s.

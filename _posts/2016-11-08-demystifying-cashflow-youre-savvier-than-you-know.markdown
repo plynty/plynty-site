@@ -1,11 +1,12 @@
 ---
 title: 'demystifying cashflow: you’re savvier than you know'
 date: 2016-11-08 18:08:00 Z
-image: "/uploads/my-stash-optimized.jpg"
 asset: "/uploads/my-stash-banner.jpg"
+image: "/uploads/my-stash-optimized.jpg"
 author: plynty
 ---
 
+<meta name="robots" content="noindex,nofollow">
 Do you remember the first time you received your own money? Maybe it was a dollar from the tooth fairy. Or perhaps $5 for helping dad rake leaves. Or, if you were really lucky, $10 as a birthday gift from Aunt Jane.<!--more--> Now, do you remember how you felt? Probably rich and excited — the possibilities for spending were endless, and the choice was yours.
 
 But maybe there were also some restrictions on how you spent that money. Mom and dad made you put half of everything you got into a savings account. Or you had to donate some to your church or another charity. Or perhaps you realized that your windfall wasn’t going to be quite enough to get exactly what you wanted, and you had to decide whether to keep stockpiling your money or settle for something else.
