@@ -5,13 +5,13 @@
   var DURATION = 1000;
   var INTERVAL_DURATION = 9000;
 
-  var incomeColor = '#3ebeb0';
-  var expensesColor = '#134e75';
+  var IncomeColor = '#3ebeb0';
+  var ExpensesColor = '#134e75';
   var darkGrayTextColor = '#606060';
 
   var colorScale = d3.scale.ordinal()
-    .domain(['income', 'expenses'])
-    .range([incomeColor, expensesColor]);
+    .domain(['Income', 'Expenses'])
+    .range([IncomeColor, ExpensesColor]);
 
   var animatedData = getData();
 
@@ -197,9 +197,9 @@
             });
           var d2 = interpolate(t);
           var pos = outerArc.centroid(d2);
-          if (d.data.label === 'income') {
+          if (d.data.label === 'Income') {
             pos[0] = (LABEL_X_POS) * (midAngle(d2) > ((Math.PI + 0.001) * 2) ? 1 : -1);
-          } else if (d.data.label === 'expenses') {
+          } else if (d.data.label === 'Expenses') {
             pos[0] = (LABEL_X_POS) * (midAngle(d2) < ((Math.PI + 0.001) * 3) ? 1 : -1);
           }
 
@@ -212,9 +212,9 @@
         this._current = interpolate(0);
         return function(t) {
           var d2 = interpolate(t);
-          if (d.data.label === 'income') {
+          if (d.data.label === 'Income') {
             return midAngle(d2) > ((Math.PI + 0.001) * 2) ? 'end' : 'start';
-          } else if (d.data.label === 'expenses') {
+          } else if (d.data.label === 'Expenses') {
             return midAngle(d2) < ((Math.PI + 0.001) * 3) ? 'end' : 'start';
           }
         };
@@ -259,9 +259,9 @@
         return function(t) {
           var d2 = interpolate(t);
           var pos = outerArc.centroid(d2);
-          if (d.data.label === 'income') {
+          if (d.data.label === 'Income') {
             pos[0] = (LABEL_X_POS) * (midAngle(d2) > ((Math.PI + 0.001) * 2) ? 1 : -1);
-          } else if (d.data.label === 'expenses') {
+          } else if (d.data.label === 'Expenses') {
             pos[0] = (LABEL_X_POS) * (midAngle(d2) < ((Math.PI + 0.001) * 3) ? 1 : -1);
           }
           var inner = [arc.centroid(d2)[0], arc.centroid(d2)[1]];
@@ -289,7 +289,7 @@
         return DONUT_INITIALIZED ? 1 : 0;
       })
       .text(function() {
-        return 'cashflow'
+        return 'Cashflow'
       });
 
     centerTextLine1.transition()
@@ -309,7 +309,7 @@
     textToAnimate.transition()
       .duration(DURATION)
       .style('opacity', 1)
-      .style('color', incomeColor)
+      .style('color', IncomeColor)
 
     textToAnimate.transition()
       .delay(INTERVAL_DURATION)
@@ -343,7 +343,7 @@
       .duration(DURATION)
       .style('display', 'block')
       .style('opacity', 1)
-      .style('color', incomeColor);
+      .style('color', IncomeColor);
 
     mobileTextToAnimate.transition()
       .delay(INTERVAL_DURATION - DURATION)
@@ -382,73 +382,73 @@
     return [{
       step: 0,
       donutData: [{
-        label: 'income',
+        label: 'Income',
         value: 50
       }, {
-        label: 'expenses',
+        label: 'Expenses',
         value: 50
       }],
-      tagLine: 'how much will you need?',
+      tagLine: 'How much will you need?',
       explanation: 'A simple household budget --\nthe balance of what you earn and spend.\nThat\'s how plynty helps you plan for retirement.',
       donutType: 'balanced'
     }, {
       step: 1,
       donutData: [{
-        label: 'income',
+        label: 'Income',
         value: 25
       }, {
-        label: 'expenses',
+        label: 'Expenses',
         value: 75
       }],
-      tagLine: 'when will you retire?',
+      tagLine: 'When will you retire?',
       explanation: 'What if you retire early?\nHow will it change the lifestyle you want to live?\nplynty makes smart choices simple.',
-      donutType: 'income only 1/4'
+      donutType: 'Income only 1/4'
     }, {
       step: 2,
       donutData: [{
-        label: 'income',
+        label: 'Income',
         value: 40
       }, {
-        label: 'expenses',
+        label: 'Expenses',
         value: 60
       }],
-      tagLine: 'smarter saving for a better life',
+      tagLine: 'Smarter saving for a better life',
       explanation: 'A saving and investing strategy that minimizes fees.\nHow much more could you have?\nplynty helps you keep more.',
-      donutType: 'income only 1/3'
+      donutType: 'Income only 1/3'
     }, {
       step: 3,
       donutData: [{
-        label: 'income',
+        label: 'Income',
         value: 50
       }, {
-        label: 'expenses',
+        label: 'Expenses',
         value: 50
       }],
-      tagLine: 'what if?',
+      tagLine: 'What if?',
       explanation: 'Which spending changes in get you closest to your lifestyle goal?\nAnswering that question is the power of plynty.',
       donutType: 'balanced'
     }, {
       step: 4,
       donutData: [{
-        label: 'income',
+        label: 'Income',
         value: 70
       }, {
-        label: 'expenses',
+        label: 'Expenses',
         value: 30
       }],
-      tagLine: 'what will you do?',
+      tagLine: 'What will you do?',
       explanation: 'Work part-time, if only for the fun of it.\nWhether working for pay or volunteering for charity,\nStaying active is the key to lifelong happiness.',
-      donutType: 'income 2/3'
+      donutType: 'Income 2/3'
     }, {
       step: 5,
       donutData: [{
-        label: 'income',
+        label: 'Income',
         value: 50
       }, {
-        label: 'expenses',
+        label: 'Expenses',
         value: 50
       }],
-      tagLine: 'how will you spend your retirement?',
+      tagLine: 'How will you spend your retirement?',
       explanation: 'Enjoying family, travel, hobbies?\nPlynty helps you fund your dreams',
       donutType: 'balanced'
     }];

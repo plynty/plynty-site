@@ -6,7 +6,7 @@ page: aboutus
 layout: default
 ---
 
-# we see money, 
+# We see money, 
 
 # differently 
 

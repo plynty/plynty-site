@@ -7,7 +7,7 @@ image: "/uploads/income-expense.png"
 layout: default
 ---
 
-# you already understand this — really!
+# You already understand this — really!
 
 You probably already manage your money on a regular basis, tracking how much you earn and
 spend. Yep, whether you write it down or guesstimate, you likely have a good idea of what
