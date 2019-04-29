@@ -6,7 +6,7 @@ page: aboutus
 layout: default
 ---
 
-# get to know us
+# Get to know us
 
 At plynty, we consider ourselves fortunate to be part of a growing community of like-minded people who have a passion for making retirement planning truly understandable and easy.
  

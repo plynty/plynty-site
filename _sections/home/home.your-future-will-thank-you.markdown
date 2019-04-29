@@ -6,7 +6,7 @@ page: home
 layout: default
 ---
 
-# your future will thank you
+# Your future will thank you
 
 With *plynty*, you get a powerful financial planning platform with visibility into your retirement cashflow and how you're future is shaping up.
 
@@ -18,4 +18,4 @@ With *plynty*, you get a powerful financial planning platform with visibility in
   androidlink="https://plynty.com/android-app"
 %}-->
 
-{% include button.html style="primary" label="join today" target="{registerLink}" %}
+{% include button.html style="primary" label="Join today" target="{registerLink}" %}

@@ -7,7 +7,7 @@ image: "/uploads/reduce-expenses.png"
 layout: default
 ---
 
-# hey, you can do this!
+# Hey, you can do this!
 Of course your retirement plan should be about you. But simple and convenient? We think it should be all that and more. That’s why we developed *plynty*.
 
 Whether it’s how much you have or how much you need, *plynty* guides you to a plan that works 

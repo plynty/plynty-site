@@ -6,7 +6,7 @@ page: press
 layout: default
 ---
 
-# press
+# Press
 
 ## Our logos, photography, and videos are available for your editorial use, with credit to plynty, LLC.
 

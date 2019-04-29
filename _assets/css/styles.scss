@@ -146,7 +146,6 @@ nav {
 
 .nav-item-highlight-cta {
     background-color: $plynty-pink;
-    text-transform: lowercase;
     color: $plynty-pink;
     margin-left: 1rem;
     border : 0.1rem solid $plynty-pink;
@@ -186,7 +185,7 @@ nav a:hover {
     }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 500px){
     .nav-item-highlight-cta {
         margin-top: 1rem;
     }
@@ -297,7 +296,7 @@ footer .vert-align{
 .md-accent {
     background-color: $plynty-pink;
     color: $plynty-white;
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 
 .md-outline {

@@ -6,18 +6,18 @@ page: home
 layout: default
 ---
 
-# simple.
+# Simple.
 
-# convenient.
+# Convenient.
 
-# personalized.
+# Personalized.
 
 <br/>
 
-retirement planning
+Retirement planning
 
 within your control
 
-{% include button.html style="primary" label="join today" target="{registerLink}" %}
+{% include button.html style="primary" label="Join Today" target="{registerLink}" %}
 
 <!-- If needed to change the image of the homepage _ replace featureImage.jpeg -->

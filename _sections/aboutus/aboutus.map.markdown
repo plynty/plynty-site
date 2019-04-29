@@ -8,7 +8,7 @@ layout: default
 
 ---
 
-# contact us
+# Contact us
 
 {% include map.html %}
 

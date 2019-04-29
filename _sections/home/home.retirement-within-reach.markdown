@@ -6,12 +6,12 @@ page: home
 layout: default
 ---
 
-# your retirement within reach
+# Your retirement within reach
 
-start using the *plynty* app today.
+Start using the *plynty* app today.
 
 <!--{% include app-stores.html
   ioslink="https://plynty.com/ios-app"
   androidlink="https://plynty.com/android-app"
 %}-->
-{% include button.html style="primary" label="join today" target="{registerLink}" %}
+{% include button.html style="primary" label="Join today" target="{registerLink}" %}

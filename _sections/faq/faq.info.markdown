@@ -6,7 +6,6 @@ page: faq
 layout: default
 ---
 
-<div class="hide-xs"><h1>frequently asked questions</h1></div>
-<div class="hide-md hide-lg hidden-xlg hide-sm"><h1>FAQs</h1></div>
+<h1>FAQs</h1>
 
 ## If you don't find an answer to your question, please contact us at *[support@plynty.com](mailto:support@plynty.com)*.
