@@ -86,35 +86,6 @@
           top: 45%;
       }
     }
-    @media only screen and (max-width:1000px) {
-        svg{
-            width: 70%;
-            margin-top: -70px;
-         }   
-        .headerImage{
-          background: url('/uploads/b2b-ipad-hero.jpg')no-repeat center center;
-          background-size: cover;
-		  height:800px;
-        }
-        .headerImageContent{
-            left: 40%;
-            top: 45% !important;
-        }
-        .donut-explanation {
-          max-height: 500px;
-          padding-bottom:0;
-          margin-bottom:0;
-        }
-        #explanation-step-2 {
-          margin-bottom: -18px;
-        }
-        #explanation-step-5 {
-          margin-bottom:-70px;
-        }
-        .donut-explanation p {
-            font-size: 1.6rem;
-        }
-    }
     @media only screen and (max-width: 600px) {
         svg{
             width: 90%;
