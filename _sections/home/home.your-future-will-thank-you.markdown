@@ -6,7 +6,7 @@ page: home
 layout: default
 ---
 
-# Your future will thank you
+# Your future will thank you.
 
 With *plynty*, you get a powerful financial planning platform with visibility into your retirement cashflow and how you're future is shaping up.
 

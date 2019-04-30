@@ -6,7 +6,7 @@ page: home
 layout: default
 ---
 
-# Your money can time travel
+# Your money can time travel.
 
 Imagine a financial time machine: step into the future, see what you’ll need, and come back with the right retirement plan. *plynty* can help take you there.
 

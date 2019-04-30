@@ -7,7 +7,7 @@ image: "/uploads/verify.jpg"
 layout: default
 ---
 
-# Your data — secure and private
+# Your data — secure and private.
 With proven technology and expertise, *plynty* defends every detail of your data.
 
 {% include icon-bullet.html heading="&nbsp;&nbsp;Sign in safeguards" icon="fa fa-lock"
