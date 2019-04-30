@@ -6,7 +6,7 @@ page: home
 layout: default
 ---
 
-# Your retirement within reach
+# Your retirement within reach.
 
 Start using the *plynty* app today.
 

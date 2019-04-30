@@ -16,7 +16,7 @@ layout: default
 
 Retirement planning
 
-within your control
+within your control.
 
 {% include button.html style="primary" label="Join Today" target="{registerLink}" %}
 
