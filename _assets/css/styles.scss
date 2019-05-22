@@ -27,7 +27,7 @@ $social-linkedin: #0077ba !default;
 @import "modal";
 @import "press";
 @import "faq";
-@import "b2b";
+@import "enterprise";
 
 /**
  * Text-align fallback for older browsers
@@ -452,7 +452,9 @@ i{
     top: 5px;
 }
 
-.b2b .col-md-6 img{margin-bottom:-45px;}
+.enterprise .col-md-6 img {
+    margin-bottom: -45px;
+}
 
 .discount-wrapper{
     background: $plynty-pink;

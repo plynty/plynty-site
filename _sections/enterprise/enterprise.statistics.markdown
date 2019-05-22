@@ -1,8 +1,8 @@
 ---
-title: b2b.statistics
+title: enterprise.statistics
 position: 8
 format: three-block
-page: b2b
+page: enterprise
 layout: default
 ---
 

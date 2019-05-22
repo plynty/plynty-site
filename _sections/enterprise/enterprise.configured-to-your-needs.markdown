@@ -1,8 +1,8 @@
 ---
-title: b2b.retirement-within-reach
+title: enterprise.retirement-within-reach
 position: 10
 format: full
-page: b2b
+page: enterprise
 layout: default
 ---
 

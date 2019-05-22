@@ -1,8 +1,8 @@
 ---
-title: b2b.get-unique-insights
+title: enterprise.get-unique-insights
 position: 9
 format: image-left
-page: b2b
+page: enterprise
 image: "/uploads/unique-insights.png"
 layout: default
 ---

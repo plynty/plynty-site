@@ -1,5 +1,5 @@
 /* home page styles */
-.b2b {
+.enterprise {
 	
     background-color: $plynty-white;
     section:first-child img {
@@ -40,7 +40,7 @@
         font-size: 1.4rem;
         color: $plynty-pink;
     }
-    .b2b-card-header{
+    .enterprise-card-header {
         padding:30px;
         border-radius:50%;
         background-color:white;
@@ -91,18 +91,18 @@
             width: 90%;
             margin-top: -70px;
          }   
-        .b2b-headerImageContent {
+        .enterprise-headerImageContent {
             left: 50%;
             top: 50%;
         }
-        .b2b-headerImageContent h1 {
+        .enterprise-headerImageContent h1 {
             font-size: 4rem;
             text-align: left;
             margin-bottom:-10px;
             margin-top: 5px;
             line-height: 6rem;
         }
-        .b2b-headerImageContent p {
+        .enterprise-headerImageContent p {
             font-size: 1.5rem;
             text-align: left;
             margin-bottom:-10px;
