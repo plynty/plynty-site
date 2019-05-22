@@ -1,8 +1,8 @@
 ---
-title: b2b.customizable-mobile-first-digital-advice
+title: enterprise.customizable-mobile-first-digital-advice
 position: 7
 format: image-right
-page: b2b
+page: enterprise
 image: "/uploads/splash-screen.png"
 layout: default
 ---

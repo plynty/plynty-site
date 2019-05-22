@@ -1,8 +1,8 @@
 ---
-title: b2b.in-your-pocket
+title: enterprise.in-your-pocket
 position: 5
 format: big-image
-page: b2b
+page: enterprise
 layout: default
 ---
 
