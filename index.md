@@ -1,5 +1,5 @@
 ---
-title: plynty - retirement planning within your control
+title: Plynty - Retirement planning within your control
 layout: default
 ---
 
