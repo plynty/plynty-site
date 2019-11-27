@@ -73,9 +73,9 @@
   }
 
   function updateLinks(priceObj) {
-    $("a[href='{registerLink}']").attr('href', priceObj.issuer && JWT ? appURL + '/register-email/' + JWT : appURL +
-      '/register-email/:go');
-    $("a[href='{loginLink}']").attr('href', appURL + '/login-email/:go');
+    $("a[href='{registerLink}']").attr('href', priceObj.issuer && JWT ? appURL + '/register/' + JWT : appURL +
+      '/register');
+    $("a[href='{loginLink}']").attr('href', appURL + '/login');
   }
 
   function updateContent(priceObj) {
