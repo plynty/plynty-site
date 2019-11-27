@@ -110,7 +110,7 @@
     });
 
     request.done(function (data) {
-      var priceObj = data.response;
+      var priceObj = data;
       if (priceObj) {
         updateContent(priceObj);
       }
