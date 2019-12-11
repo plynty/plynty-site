@@ -18,6 +18,6 @@ Retirement planning
 
 within your control.
 
-{% include button.html style="primary" label="Join Today" target="{registerLink}" %}
+{% include button.html style="primary" label="Join Today" target="/register/" %}
 
 <!-- If needed to change the image of the homepage _ replace featureImage.jpeg -->
