@@ -18,4 +18,4 @@ With *plynty*, you get a powerful financial planning platform with visibility in
   androidlink="https://plynty.com/android-app"
 %}-->
 
-{% include button.html style="primary" label="Join today" target="{registerLink}" %}
+{% include button.html style="primary" label="Join today" target="/register/" %}
