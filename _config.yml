@@ -80,5 +80,6 @@ assets:
     css: true
     js: true
 excerpt_separator: "<!--more-->"
+exclude: ["Gemfile.lock", "node_modules"]
 plugins:
 - jekyll-seo-tag
