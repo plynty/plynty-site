@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
-gem 'jekyll'
-gem 'github-pages', group: :jekyll_plugins
-gem 'activesupport'
-gem 'jekyll-seo-tag'
-
+gem 'jekyll', '<4'
+group :jekyll_plugins do
+  gem 'github-pages'
+  gem 'jekyll-seo-tag'
+end
