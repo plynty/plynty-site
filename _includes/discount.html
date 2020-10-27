@@ -78,7 +78,13 @@
     $("a[href='/login/']").attr('href', appURL + '/login');
   }
 
+  function initLinks(){
+    $("a[href='/register/']").attr('href', appURL + '/register');
+    $("a[href='/login/']").attr('href', appURL + '/login');
+  }
+
   function updateContent(priceObj) {
+    initLinks();
     if (priceObj) {
       var discountHeaderText = $('#discountHeader').html();
       var discountContentText = $('#discountContent').html();
