@@ -11,6 +11,7 @@
   }
 
   JWT = getDiscountId();
+  initLinks();
   getSubscriptionPrice(JWT);
 
   function getDiscountId() {
@@ -84,7 +85,6 @@
   }
 
   function updateContent(priceObj) {
-    initLinks();
     if (priceObj) {
       var discountHeaderText = $('#discountHeader').html();
       var discountContentText = $('#discountContent').html();
