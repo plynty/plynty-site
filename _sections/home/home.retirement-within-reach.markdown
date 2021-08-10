@@ -14,4 +14,4 @@ Start using the *plynty* app today.
   ioslink="https://plynty.com/ios-app"
   androidlink="https://plynty.com/android-app"
 %}-->
-{% include button.html style="primary" label="Join today" target="/register/" %}
+{% include button.html style="primary" label="Get started" target="/register/" %}
