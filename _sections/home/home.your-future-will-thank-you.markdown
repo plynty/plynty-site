@@ -10,12 +10,13 @@ layout: default
 
 With *plynty*, you get a powerful financial planning platform with visibility into your retirement cashflow and how you're future is shaping up.
 
-<span id="discountContent">Join today {priceContent}</span>
-<span id="discountContentAmount" class="discount-amount">{savingsApplied}</span>
+<!-- <span id="discountContent">Join today {priceContent}</span>
+<span id="discountContentAmount" class="discount-amount">{savingsApplied}</span> -->
+Get started today, it's free.
+{% include button.html style="primary" label="Get started" target="/register/" %}
 
-<!--{% include app-stores.html
+Or, get the plynty app.
+{% include app-stores.html
   ioslink="https://plynty.com/ios-app"
   androidlink="https://plynty.com/android-app"
-%}-->
-
-{% include button.html style="primary" label="Join today" target="/register/" %}
+%}

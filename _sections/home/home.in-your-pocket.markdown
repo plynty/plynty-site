@@ -6,18 +6,18 @@ page: home
 layout: default
 ---
 
-# Simple.
+# See years into
 
-# Convenient.
+# your future -
 
-# Personalized.
+# in just minutes.
 
 <br/>
 
-Retirement planning
+Create a retirement plan.
 
-within your control.
+Free for a limited time.
 
-{% include button.html style="primary" label="Join Today" target="/register/" %}
+{% include button.html style="primary" label="Get started" target="/register/" %}
 
 <!-- If needed to change the image of the homepage _ replace featureImage.jpeg -->
