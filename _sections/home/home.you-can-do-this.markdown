@@ -14,4 +14,4 @@ Whether it’s how much you have or how much you need, *plynty* guides you to a 
 with your lifestyle. It links all of your accounts so that everything is laid out in front of you, all in 
 one place. And, yes, it’s affordable.
 
-<a href="/register/">This is totally doable. Join plynty now. ></a>
+<a href="/register/">This is totally doable. Start planning with plynty now. ></a>
