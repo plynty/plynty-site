@@ -17,6 +17,6 @@ Get started today, it's free.
 
 Or, get the plynty app.
 {% include app-stores.html
-  ioslink="https://plynty.com/ios-app"
-  androidlink="https://plynty.com/android-app"
+  ioslink="https://itunes.apple.com/us/app/plynty/id1149184207?mt=8"
+  androidlink="https://play.google.com/store/apps/details?id=com.plynty.plyntyapp&hl=en"
 %}
