@@ -55,14 +55,14 @@
     }
     .headerImageContent h1{
         color: #474747;
-        font-size: 6rem;
+        font-size: 4rem;
         letter-spacing: 3px;
         font-weight: 600;
-        line-height: 7rem;
+        line-height: 5rem;
     }
     .headerImageContent p {
         color: #474747;
-        font-size: 3rem;
+        font-size: 2rem;
         letter-spacing: 2px;
         line-height: 0.5rem;
     }
@@ -107,21 +107,21 @@
             margin-top: -70px;
          }   
         .headerImageContent {
-            left: 50%;
+            left: 40%;
             top: 50%;
         }
         .headerImageContent h1 {
-            font-size: 4rem;
+            font-size: 2.5rem;
             text-align: left;
             margin-bottom:-10px;
             margin-top: 5px;
-            line-height: 6rem;
+            line-height: 4rem;
         }
         .headerImageContent p {
             font-size: 1.5rem;
             text-align: left;
             margin-bottom:-10px;
-            line-height: 2rem;
+            line-height: 1.5rem;
         }
     }
 }
